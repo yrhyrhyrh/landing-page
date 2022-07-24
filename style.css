@@ -37,6 +37,7 @@ body  {
     display:flex;
     color: white;
     gap: 15px;
+    justify-content: center;
 }
 
 .black .text {
@@ -136,4 +137,32 @@ button {
     justify-content: flex-end;
     font-weight: 700;
     font-size: 20px;
+}
+
+.last {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.blue-box {
+    padding: 60px 100px;
+    background-color: #3882F6;
+    display: flex;
+    gap: 100px;
+}
+
+.blue-box button {
+    flex-shrink: 0;
+    border-style: solid;
+    border-color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+}
+
+.action {
+    font-size: 20px;
+    font-weight: 700;
+    color: #E5E7EB;
 }
