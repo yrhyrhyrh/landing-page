@@ -1,7 +1,6 @@
 body  {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .header {
@@ -10,7 +9,7 @@ body  {
     align-items: center;
     background-color: #1F2937;
     padding: 10px;
-    padding: 0 150px;
+    padding: 20px 150px;
 }
 
 .header .logo {
@@ -27,4 +26,46 @@ body  {
 .header-links {
     display: flex;
     gap: 18px;
+}
+
+.black {
+    background-color: #1F2937;
+    padding: 100px 150px;
+    display:flex;
+    color: white;
+    gap: 15px;
+}
+
+.black .text {
+    flex: 1;
+}
+
+.black .img-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    margin: 10px 0;
+    display: flex;
+    padding: 7px 22px;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 700;
 }
