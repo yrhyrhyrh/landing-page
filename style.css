@@ -1,7 +1,7 @@
 body  {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -11,7 +11,7 @@ body  {
     align-items: center;
     background-color: #1F2937;
     padding: 10px;
-    padding: 20px 150px;
+    padding: 20px 200px;
 }
 
 .header .logo {
@@ -33,7 +33,7 @@ body  {
 
 .black {
     background-color: #1F2937;
-    padding: 100px 150px;
+    padding: 100px 200px;
     display:flex;
     color: white;
     gap: 15px;
@@ -73,10 +73,11 @@ button {
     font-weight: 700;
 }
 
+
 .white {
     display: flex;
     flex-direction: column;
-    padding: 100px 150px;
+    padding: 100px 250px 150px;
 }
 
 .title {
@@ -113,4 +114,26 @@ button {
     text-align: center;
     padding-top: 15px;
     color: #293749;
+}
+
+
+.grey {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 120px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 20px;
 }
