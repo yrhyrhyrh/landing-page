@@ -151,6 +151,7 @@ button {
     background-color: #3882F6;
     display: flex;
     gap: 100px;
+    border-radius: 10px;
 }
 
 .blue-box button {
